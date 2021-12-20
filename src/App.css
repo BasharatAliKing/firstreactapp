@@ -21,4 +21,7 @@ input[type="text"]:focus{
   .video{
     width: 250px;
   }
+  h2{
+    font-size: 25px;
+  }
 }
