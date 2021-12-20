@@ -59,7 +59,7 @@ export default class App extends Component {
           </div>
           <div className=" container mt-5">
                 <div className="row">
-                  <h2 className='text-center m-5 text-white '>Firstly See the Video Please ..</h2>
+                  <h2 className='text-center my-3 text-white '>Firstly See the Video Please ..</h2>
                   <div className="col-md-12 text-center">
                     <video className=' video ' src={video} controls autoPlay />
                   </div>
