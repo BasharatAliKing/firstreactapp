@@ -1,0 +1,11 @@
+body{
+  background-color: rgb(94, 91, 91);
+}
+input[type="text"]{
+  background-color: transparent;
+  color: white;
+}
+
+input[type="text"]:focus{
+  background-color: transparent;
+}
