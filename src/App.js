@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import video from "./video.mp4";
 import Plan from './Plan';
 import "./App.css";
 export default class App extends Component {
@@ -51,9 +52,18 @@ export default class App extends Component {
                 </ul>
               </div>
 
+             
+
 
             </div>
           </div>
+          <div className="container-fluid">
+                <div className="row">
+                  <div className="col-md-12 text-center">
+                    <video src={video} controls autoPlay width="400px"/>
+                  </div>
+                </div>
+              </div>
         </div>
       </div>
     )
