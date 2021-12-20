@@ -14,4 +14,11 @@ input[type="text"]:focus{
   border-radius: 10px;
   border-top-left-radius: 0px;
   border-bottom-right-radius: 0px;
+  width: 400px;
+}
+
+@media (max-width:576px) {
+  .video{
+    width: 250px;
+  }
 }
