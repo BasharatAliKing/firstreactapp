@@ -57,10 +57,11 @@ export default class App extends Component {
 
             </div>
           </div>
-          <div className="container-fluid">
+          <div className=" container-fluid mt-5">
                 <div className="row">
+                  <h2 className='text-center m-5 text-white'>Firstly See the Video Please ..</h2>
                   <div className="col-md-12 text-center">
-                    <video src={video} controls autoPlay width="400px"/>
+                    <video className='mx-auto video ' src={video} controls autoPlay width="400px"/>
                   </div>
                 </div>
               </div>

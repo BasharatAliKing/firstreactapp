@@ -9,3 +9,9 @@ input[type="text"]{
 input[type="text"]:focus{
   background-color: transparent;
 }
+.video{
+  border: 3px solid  rgb(165, 164, 164);
+  border-radius: 10px;
+  border-top-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+}
